@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+#navbar {
+  background-color: #e0d282fa;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu-items {
+  cursor: pointer;
+  margin: 7px;
+  padding: 3px;
+}
+
+.menu-items:hover {
+  text-decoration: underline;
+}
+
+#drop-down {
+  display: none;
+}
+
+.n-btn {
+  cursor: pointer;
+  background-color: #98f77b;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  width: 85px;
+  height: 35px;
+  margin: 5px;
+}
+
+.n-btn:hover {
+  color: #fff;
+  background-color: #6cb45a;
+}
+
+@media screen and (width <= 700px) {
+  #navbar {
+    flex-direction: column;
+    display: flex;
+  }
+
+  #drop-down {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .nav-menu {
+    margin: 10px;
+  }
+
+  .menu-items:hover {
+    background-color: #c1a4dd;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .hide {
+    display: none;
+  }
+}
+
+#container-form {
+  background-color: #faebd7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.form {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  max-width: 400px;
+  max-height: 250px;
+  margin: 15px;
+  box-shadow: 4px 4px 6px #ccc;
+}
+
+.formmain {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
+  display: flex;
+}
+
+.inputField {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+  height: 25px;
+}
+
+.inputField:hover {
+  background-color: #cbfccb;
+  border: 1px solid #5571ec;
+}
+
+.input-box {
+  margin: 10px;
+}
+
+.formmain button {
+  cursor: pointer;
+  background-color: #58f358;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+}
+
+.formmain button:hover {
+  background-color: #8de48d;
+}
+
+.rule {
+  color: #06812f;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+#newAccount {
+  color: #0c68bd;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
